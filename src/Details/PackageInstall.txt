@@ -1,0 +1,15 @@
+@ Package that install into this project
+
+1. npm install -D tailwindcss (Install Tailwind)
+   npx tailwindcss init
+2. npm i daisyui (Install daisyui)
+3. npm i --save @fortawesome/fontawesome-svg-core
+   npm install --save @fortawesome/free-solid-svg-icons
+   npm install --save @fortawesome/react-fontawesome
+   npm install --save @fortawesome/fontawesome-free-brands
+4. npm install swiper (Swiper Js)
+5. npm i node-sass
+6. npm i react-external-link (External Link)
+7. npm i react-helmet-async (Web site dynamic path)
+8. npm install --save aos@next (Install Animation)
+9. npm install react-router-dom (React  router dom)
