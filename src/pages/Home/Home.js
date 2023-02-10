@@ -5,8 +5,10 @@ import Header from '../../component/Header/Header';
 const Home = () => {
     return (
         <div>
-            <Header></Header>
-            <Banner></Banner>
+            <div className='banner-bg'>
+                <Header></Header>
+                <Banner></Banner>
+            </div>
         </div>
     );
 };

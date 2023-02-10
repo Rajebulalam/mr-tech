@@ -1,6 +1,6 @@
 import React from 'react';
 import './Banner.css';
-import { Navigation, Pagination, A11y } from 'swiper';
+import { Navigation, Pagination, A11y, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -36,22 +36,22 @@ const Banner = () => {
 
     return (
         <section className='bannerPart'>
-            <div className='w-full lg:w-11/12 px-4 lg:px-6 mx-auto py-10'>
+            <div className='w-full lg:w-11/12 px-4 lg:px-0 mx-auto py-10'>
 
                 <Swiper
-                    slidesPerView={3}
-                    spaceBetween={30}
+                    // slidesPerView={3}
+                    // spaceBetween={30}
                     centerSlide='true'
                     fade='true'
                     grabCursor='true'
                     autoplay={{
-                        delay: 2000,
+                        delay: 3000,
                     }}
                     pagination={{
                         clickable: true,
                     }}
                     navigation={true}
-                    modules={[Pagination, Navigation, A11y]}
+                    modules={[Pagination, Navigation, A11y, Autoplay]}
                     className="mySwiper"
                     breakpoints={{
                         0: {

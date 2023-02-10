@@ -14,7 +14,7 @@ const Header = () => {
             }} className='py-5'>
                 <div className='w-full lg:w-11/12 px-4 lg:px-6 mx-auto flex justify-between items-center'>
                     <div className='w-full'>
-                        <Link className='font-extrabold text-4xl' to='/'>MR Tech</Link>
+                        <Link className='font-extrabold text-4xl text-primary' to='/'>MR Tech</Link>
                     </div>
                     <div className='w-full text-right'>
                         <ul>
