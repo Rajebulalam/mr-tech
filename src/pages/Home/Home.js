@@ -1,14 +1,14 @@
 import React from 'react';
 import Banner from '../../component/Banner/Banner';
 import Header from '../../component/Header/Header';
+import Service from '../../component/Service/Service';
 
 const Home = () => {
     return (
         <div>
-            <div className='banner-bg'>
-                <Header></Header>
-                <Banner></Banner>
-            </div>
+            <Header></Header>
+            <Banner></Banner>
+            <Service></Service>
         </div>
     );
 };

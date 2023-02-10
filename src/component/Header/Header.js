@@ -11,7 +11,7 @@ const Header = () => {
             {/* Main Header */}
             <nav style={{
                 borderTop: "1px solid #dddddd", borderBottom: '1px solid #dddddd'
-            }} className='py-5'>
+            }} className='py-5 shadow-md'>
                 <div className='w-full lg:w-11/12 px-4 lg:px-6 mx-auto flex justify-between items-center'>
                     <div className='w-full'>
                         <Link className='font-extrabold text-4xl text-primary' to='/'>MR Tech</Link>

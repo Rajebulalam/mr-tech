@@ -27,7 +27,7 @@ const Banner = () => {
         },
         {
             id: '03',
-            title: 'Business Consultency',
+            title: 'Business Consultancy',
             content: "Everyone wants to grow their business or service, and business grows when customers grow and customers grow when they see it.",
             image: "https://i.ibb.co/wBsnkVQ/business.png",
             imageAlt: "Business Consultancy"
@@ -77,7 +77,7 @@ const Banner = () => {
                                             <Link className='btn btn-primary text-accent hover:text-neutral m-0 py-0' to='/'>Know more</Link>
                                         </div>
                                         <div className='w-full'>
-                                            <img className='h-[450px]' src={data.image} alt={data.imageAlt} />
+                                            <img className='h-[460px]' src={data.image} alt={data.imageAlt} />
                                         </div>
                                     </div>
                                 </SwiperSlide>
