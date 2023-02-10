@@ -1,9 +1,14 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Home from './pages/Home/Home';
 
 function App() {
   return (
     <div>
-      <h2 className='text-center flex justify-center items-start font-extrabold'>MR Tech</h2>
+      <Routes>
+        <Route path='/' element={<Home></Home>}></Route>
+        <Route path='/home' element={<Home></Home>}></Route>
+      </Routes>
     </div>
   );
 }

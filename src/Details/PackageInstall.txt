@@ -13,3 +13,5 @@
 7. npm i react-helmet-async (Web site dynamic path)
 8. npm install --save aos@next (Install Animation)
 9. npm install react-router-dom (React  router dom)
+10. npm install @mui/material @emotion/react @emotion/styled (Material UI)
+11. npm install @mui/icons-material (Material Icon)

@@ -1,0 +1,13 @@
+.bannerPart .swiper-button-next:after,
+.bannerPart .swiper-button-prev:after {
+    font-size: 20px !important;
+    font-weight: 600;
+    color: #77287D;
+}
+
+.bannerPart .swiper-pagination-bullet {
+    width: 18px !important;
+    height: 5px !important;
+    border-radius: 5px !important;
+    background: #321656 !important;
+}
